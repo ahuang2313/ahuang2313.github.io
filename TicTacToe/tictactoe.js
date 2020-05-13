@@ -36,57 +36,7 @@ function computerTakeTurn(){
 	cb[8] = document.getElementById("eight").innerHTML;
 	cb[9] = document.getElementById("nine").innerHTML;
 
-	//choose any boxes that would allow the human player a win, else, choose random box until empty box is found
 	
-		if (cb[1] == "X" && cb[1] == cb[2] && cb[3] == ""){
-		  document.getElementById("three").innerHTML = "O";
-	}else if(cb[2] == "X" && cb[2] == cb[3] && cb[1] == ""){
-		document.getElementById("one").innerHTML = "O";
-	}else if(cb[1] == "X" && cb[1] == cb[3] && cb[2] == ""){
-		document.getElementById("two").innerHTML = "O";
-	}else if(cb[4] == "X" && cb[4] == cb[5] && cb[6] == ""){
-		  document.getElementById("six").innerHTML = "O";
-	}else if(cb[5] == "X" && cb[5] == cb[6] && cb[4] == ""){
-		document.getElementById("four").innerHTML = "O";
-	}else if(cb[4] == "X" && cb[4] == cb[6] && cb[5] == ""){
-		document.getElementById("five").innerHTML = "O";
-	}else if(cb[7] == "X" && cb[7] == cb[8] && cb[9] == ""){
-		  document.getElementById("nine").innerHTML = "O";
-	}else if(cb[8] == "X" && cb[8] == cb[9] && cb[7] == ""){
-		document.getElementById("seven").innerHTML = "O";
-	}else if(cb[7] == "X" && cb[7] == cb[9] && cb[8] == ""){
-		document.getElementById("eight").innerHTML = "O";
-	}else if(cb[1] == "X" && cb[1] == cb[4] && cb[7] == ""){
-		  document.getElementById("seven").innerHTML = "O";
-	}else if(cb[4] == "X" && cb[4] == cb[7] && cb[1] == ""){
-		document.getElementById("one").innerHTML = "O";
-	}else if(cb[1] == "X" && cb[1] == cb[7] && cb[4] == ""){
-		document.getElementById("four").innerHTML = "O";
-	}else if(cb[2] == "X" && cb[2] == cb[5] && cb[8] == ""){
-		  document.getElementById("eight").innerHTML = "O";
-	}else if(cb[5] == "X" && cb[5] == cb[8] && cb[2] == ""){
-		document.getElementById("two").innerHTML = "O";
-	}else if(cb[2] == "X" && cb[2] == cb[8] && cb[5] == ""){
-		document.getElementById("five").innerHTML = "O";
-	}else if(cb[3] == "X" && cb[3] == cb[6] && cb[9] == ""){
-		  document.getElementById("nine").innerHTML = "O";
-	}else if(cb[6] == "X" && cb[6] == cb[9] && cb[3] == ""){
-		document.getElementById("three").innerHTML = "O";
-	}else if(cb[3] == "X" && cb[3] == cb[9] && cb[6] == ""){
-		document.getElementById("six").innerHTML = "O";
-	}else if(cb[1] == "X" && cb[1] == cb[5] && cb[9] == ""){
-		  document.getElementById("nine").innerHTML = "O";
-	}else if(cb[5] == "X" && cb[5] == cb[9] && cb[1] == ""){
-		document.getElementById("one").innerHTML = "O";
-	}else if(cb[1] == "X" && cb[1] == cb[9] && cb[5] == ""){
-		document.getElementById("five").innerHTML = "O";
-	}else if(cb[3] == "X" && cb[3] == cb[5] && cb[7] == ""){
-		  document.getElementById("seven").innerHTML = "O";
-	}else if(cb[5] == "X" && cb[5] == cb[7] && cb[3] == ""){
-		document.getElementById("three").innerHTML = "O";
-	}else if(cb[3] == "X" && cb[3] == cb[7] && cb[5] == ""){
-		document.getElementById("five").innerHTML = "O";
-	}else {
 		do{
  		let rand = parseInt(Math.random()*9) + 1; //1-9
 		idName = idNames[rand-1];
@@ -99,7 +49,7 @@ function computerTakeTurn(){
 	  }
 	  
 	}while(true)
-  }//else
+
 
 }//computerTakeTurn
 
