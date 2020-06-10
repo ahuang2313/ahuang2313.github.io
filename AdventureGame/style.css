@@ -1,0 +1,96 @@
+body {
+	background-color:black;
+}
+
+#gameBoard {
+	border: 1px solid black;
+	display: grid;
+	grid-template-columns: 120px 120px 120px 120px 120px;
+	grid-template-rows: 120px 120px 120px 120px 120px;
+	justify-content: center;
+	width:600px;
+	height:600px;
+
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#gameBoard div{
+	background-color:green;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+.timberlands {
+	background-image:url("images/timberlands.png");
+}
+
+.da_club {
+	background-image:url("images/da_club.png");
+}
+.drifter_f {
+	background-image:url("images/drifter_f.png");
+}
+.drifter_b {
+	background-image:url("images/drifter_b.png");
+}
+.drifter_L {
+	background-image:url("images/drifter_L.png");
+}
+.drifter_r {
+	background-image:url("images/drifter_r.png");
+}
+.road_horizontal {
+	background-image:url("images/road_horizontal.png");
+}
+.road_vertical {
+	background-image:url("images/road_vertical.png");
+}
+.grass_pattern {
+	background-image:url("images/grass_pattern.png");
+}
+.simon_f {
+	background-image:url("images/simon_f.png");
+}
+.simon_b {
+	background-image:url("images/simon_b.png");
+}
+.simon_L {
+	background-image:url("images/simon_L.png");
+}
+.simon_r {
+	background-image:url("images/simon_r.png");
+}
+.simon_tims_f {
+	background-image:url("images/simon_tims_f.png");
+}
+.simon_tims_b {
+	background-image:url("images/simon_tims_b.png");
+}
+.simon_tims_L {
+	background-image:url("images/simon_tims_L.png");
+}
+.simon_tims_r {
+	background-image:url("images/simon_tims_r.png");
+}
+.fashion_police_f {
+	background-image:url("images/fashion_police_f.png");
+}
+.fashion_police_L {
+	background-image:url("images/fashion_police_L.png");
+}
+.fashion_police_r {
+	background-image:url("images/fashion_police_r.png");
+}
+.fashion_check_f {
+	background-image:url("images/fashion_check_f.png");
+}
+.fashion_check_b {
+	background-image:url("images/fashion_check_b.png");
+}
+.fashion_check_L {
+	background-image:url("images/fashion_check_L.png");
+}
+.fashion_check_r {
+	background-image:url("images/fashion_check_r.png");
+}
