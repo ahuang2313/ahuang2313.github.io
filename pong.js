@@ -26,8 +26,8 @@ var leftPositionOfBall = startLeftPositionOfBall;
 var topSpeedOfBall = 0;
 var leftSpeedOfBall = 0;
 
-var bounce = new sound("SoundEffects/Pong_Bounce.mp3");
-var point = new sound("SoundEffects/Pong_Synth.mp3");
+var bounce = new sound("Pong_Bounce.mp3");
+var point = new sound("Pong_Synth.mp3");
 
 //used to control game start/stop
 var controlPlay;
