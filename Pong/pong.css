@@ -1,0 +1,181 @@
+/* Colors
+#201148 - Dark Blue
+#48425c - Grayish Purple
+#E63946 - Magenta
+#cee0e0 - OffWhite Blue
+*/
+
+#gameBoard {
+	width:99.3%;
+	height:78vh;
+	background-color:#cee0e0;
+	position:relative;
+	border-bottom: thin solid black;
+	border-left:thick solid #E63946;
+	border-right:thick solid #E63946;
+
+}
+
+body {
+	background-color:#201148;
+}
+
+#header {
+	width:100%;
+	height:10vh;
+	border-bottom: thin solid black;
+	background-color:#201148;
+	position:relative;
+}
+
+#header h2 {
+	position:absolute;
+	background-color:#201148;
+	bottom: 0px;
+	margin-bottom:2px;
+}
+
+#header #left {
+	left:30px;
+	color:#E63946;
+	padding: 5px;
+	border-radius: 10px;
+	background-color:#48425c;
+}
+
+#header #right {
+	right:30px;
+	color:#E63946;
+	padding: 5px;
+	border-radius: 10px;
+	background-color:#48425c;
+}
+
+
+#title {
+	text-align:center;
+	color: #cee0e0;
+
+}
+
+.paddle {
+	width:12px;
+	height:150px;
+	background-color:#48425c;
+
+}
+
+#paddle1 {
+	position: absolute;
+	left:0px;
+	top:25vh;
+}
+
+#paddle2 {
+	position: absolute;
+	right:0px;
+	top:25vh;
+}
+
+#ball {
+	position:absolute;
+	left:50%;
+	top:40vh;
+	width:25px;
+	height:25px;
+	background-color:#E63946;
+	border-radius: 50%;
+
+}
+
+
+/**** Control Panel *****/
+#controlPanel {
+	left:30px;
+	z-index:1;
+}
+
+.controls {
+	display:inline-block;
+	margin-left: 10px;
+	padding:8px;
+	width:90px;
+	height:20px;
+	background-color:#48425c;
+	color:#E63946;
+	vertical-align:left;
+	text-align:center;
+	font-size:0.9em;
+	border-radius:7px;
+
+}
+
+.controls2 {
+	position: absolute;
+	margin-left: 650px;
+	display:inline-block;
+	padding:8px;
+	width:180px;
+	height:20px;
+	background-color:#48425c;
+	color:#E63946;
+	vertical-align:left;
+	text-align:center;
+	font-size:0.9em;
+	border-radius:7px;
+}
+
+/**** End Control Panel *****/
+
+
+/**** Lightbox CSS ****/
+
+
+.hidden {
+	display:none;
+}
+
+.unhidden {
+	display:block;
+}
+
+
+#lightbox {
+	position: fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.4);
+}
+
+#x {
+	position:absolute;
+	top:10px;
+	right:10px;
+	width:30px;
+	height:30px;
+	z-index:2;
+}
+
+#positionMessage {
+	position:absolute;
+	top:45px;
+	left:0px;
+	width:100%;
+}
+
+#boundaryMessage {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width: 600px;
+	height: 200px;
+	background-color: rgba(204, 204, 255, 0.9);
+	z-index:3;
+	padding:30px;
+	border:thick solid #000033;
+}
+
+
+/**** End of Lightbox CSS ****/
