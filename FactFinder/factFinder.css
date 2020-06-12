@@ -1,0 +1,31 @@
+button{
+	position: relative;
+	top: 100px;
+	width:70px ;
+	height:30px ;
+	background-color: yellow;
+	border: thin solid black;
+
+}
+
+body{
+	background-color:blue;
+}
+
+h1 {
+	font-family:impact, sans-serif;
+	color: yellow;
+	text-align:left;
+	font-size: 100px;
+}
+
+.fact {
+	height: 80px;
+	width: 50%;
+	border:thin solid black;
+	background-color: yellow;
+	border-radius: 5px;
+	padding: 2px;
+	font-size: 120%;
+
+}
